@@ -1,0 +1,68 @@
+body{
+    
+    background-image: url("Minimalistic Mountains Black and White Version [2560x1440].png");
+
+    background-image: url("fightclub.jpg");
+}
+
+h1{
+   
+    color: white ;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    border: 5px outset;
+    width: auto;
+    height: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-color: yellow;
+    
+}
+
+#off{
+    animation: soap;
+    animation-iteration-count: infinite;
+   animation-duration: 5s;
+}
+
+@keyframes soap {
+    from{margin-left: 100px;}
+    to{margin-left: 0px;}
+}
+
+
+#soap{
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    font-family: sans-serif;
+    border: 5px outset;
+    width: 200px;
+    height: 200px;
+    border-color: yellow;
+    padding: 10px 50px 20px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: sans-serif;
+    border: 5px outset;
+    width: 200px;
+    height: 100px;
+    border-color: yellow;
+   margin-top: 1px;
+   margin-left: 110px;
+   margin-right: 100px;
+    
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
